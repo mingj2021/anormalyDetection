@@ -21,11 +21,11 @@ code .
 运行 generate_data.py, 生成demo 数据集
 ```
 ## train
-下载 [模型](https://drive.google.com/file/d/1A6rcNneyO2moEHqHfmSBnba1iL2kMY2e/view?usp=drive_link),放在FgSegNet_v2/weights
 ```
 运行 train.py
 ```
 ## test
+下载 [模型](https://drive.google.com/file/d/1A6rcNneyO2moEHqHfmSBnba1iL2kMY2e/view?usp=drive_link),放在FgSegNet_v2/weights
 ```
 运行 test.py
 ```
