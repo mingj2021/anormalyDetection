@@ -1,5 +1,4 @@
 # Overview
-工业固定场景中检测缺陷，传统作法为与标准模板做比对，然后进行后处理。本仓库目的是通过深度学习的方式，模拟生成缺陷图片，分离前景与背景，以达到检测缺陷的目的，目前复现了FgSegNet,后续还会复现其他表现优异的网络。
 # FgSegNet_v2
 ## introduction
 <p float="left">
@@ -13,21 +12,21 @@ conda create -n FgSegNet_v2 python=3.7
 pip install -r FgSegNet_v2/requirements.txt
 git clone https://github.com/mingj2021/anormalyDetection.git
 cd anormalyDetection
-# 推荐使用vscode 打开工程
+# 
 code .
 ```
 ## Datasets
 ```
-运行 generate_data.py, 生成demo 数据集
+generate_data.py
 ```
 ## train
 ```
-运行 train.py
+train.py
 ```
 ## test
-下载 [模型](https://drive.google.com/file/d/1A6rcNneyO2moEHqHfmSBnba1iL2kMY2e/view?usp=drive_link),放在FgSegNet_v2/weights
+download [pretrained](https://drive.google.com/file/d/1A6rcNneyO2moEHqHfmSBnba1iL2kMY2e/view?usp=drive_link),put into FgSegNet_v2/weights
 ```
-运行 test.py
+test.py
 ```
 
 ## References
